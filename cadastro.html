@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+
+<!-- espaço para colocar o header do index  --------------------------->
+
+    <section>
+        <form class="container">
+            <h1>Planejamos o seu evento</h1>
+            <br>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="form-col-1">
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="form-col-2">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div>    
+            </div>
+
+            <div class="row">
+                <div class="form-col-1">
+                    <label for="nome">Sobrenome</label>
+                </div>
+                <div class="form-col-2">
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                </div>    
+            </div>  
+
+            <div class="row">
+                <div class="form-col-1">
+                    <label for="telefone">Telefone</label>
+                </div>
+                <div class="form-col-2">
+                    <input type="tel" name="telefone" id="telefone" placeholder="(__)_____-____">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-col-1">    
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="form-col-2">
+                    <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-col-1"> 
+                    <label for="tipo_evento">Tipo de evento</label>
+                </div>
+                <div class="form-col-2">
+                    <select name="tipo_evento" id="tipo_evento">
+                        <option value="">Selecione uma opção</option>
+                        <option value="cha_bebe">Chá de bebê</option>
+                        <option value="cha_revelacao">Chá revelação</option>
+                        <option value="festa_crianca">Festa para criança</option>
+                        <option value="festa_adolescente">Festa para adolescente</option>
+                        <option value="festa_adulto">Festa para adulto</option>
+                        <option value="casamento">Casamento</option>
+                        <option value="corporativo">Evento corporativo</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+
+            <div class="row">
+                <div class="form-col-1">     
+                    <label for="participantes">Expectativa de convidados</label>
+                </div>
+                <div class="form-col-2">
+                    <select name="expectativa_convidados" id="expectativa_convidados">
+                        <option value="">Selecione uma opção</option>
+                        <option value="50">Até 50 convidados</option>
+                        <option value="100">Até 100 convidados</option>
+                        <option value="150">Até 150 convidados</option>
+                        <option value="200">Até 200 convidados</option>
+                        <option value="250">Até 250 convidados</option>
+                        <option value="300">Até 300 convidados</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+            </div>
+        
+            <div class="row">
+                <input class="form-button" type="submit" value="Enviar">
+            </div>
+            <br>
+            <div class="row">
+                <input class="form-button" id="form-button-1" type="reset" value="Limpar">
+            </div>    
+
+        </form>
+    </section>
+
+    <!-- inserir footer igual do index --------------- -->
+    <footer>
+
+    </footer>
+
+</body>
+</html>
