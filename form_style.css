@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    /* font-family: */
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .form-button {
+    background-color: #0382cd;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  #form-button-1{
+      background-color: #d3dce2;
+  }
+ .form-button:hover {
+    background-color: #2b3276;
+    color: #fff;
+  }
+  #form-button-1:hover{
+    background-color: #2b3276;
+    color: #fff;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 15vh 20vw;
+  }
+  
+  .container h1{
+      text-align: center;
+  }
+  .form-col-1 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  
+  .form-col-2 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .form-col-1, .form-col-2, .button {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
