@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+
 #banner {
-    background-image: url(../img/intro-bg.jpg);
+    background-image: url(../img/indexbg.jpeg);
     height: calc(100vh - 56px);
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    color:white;
 }
 
 /* ===== Edições dos card-games, remover se desnecessário ====== */
 
 h2, h3, h4 {
     font-size: 30px;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 h3 {
