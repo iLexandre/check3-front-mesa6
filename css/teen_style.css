@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+.nav-link {
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #f77d8c;
+}
+
+body {
+    background-image: url(../img/dream.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+section>h2 {
+    margin: 60px 0px;
+}
+
+.card-image img {
+    height: 21.875rem;
+    width: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.image-container {
+    height: 21.875rem;
+    width: 100%;
+    border: 10px groove --corCinza;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-image img:hover {
+    transform: scale(1.1);
+}
+
+.card-stop img {
+    height: 21.875rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    margin-bottom: 40px;
+}
